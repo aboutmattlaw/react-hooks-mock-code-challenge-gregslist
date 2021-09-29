@@ -1,16 +1,16 @@
 import React from "react";
 import Search from "./Search";
 
-function Header() {
+function Header( {onSearch}) {
   return (
     <header>
       <h1>
         <span className="logo" role="img">
           ☮
         </span>
-        gregslist
+        gregslist 
       </h1>
-      <Search />
+      <Search onSearch={onSearch}/>
     </header>
   );
 }
