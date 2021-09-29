@@ -29,6 +29,12 @@
       "description": "wood",
       "image": "./images/wood.jpg",
       "location": "Greenpoint"
+    },
+    {
+      "description": "Guitar. Barely Used. ",
+      "image": "https://relix.com/wp-content/uploads/2021/01/new-doc.jpg",
+      "location": "Upper West Side",
+      "id": 6
     }
   ]
 }
